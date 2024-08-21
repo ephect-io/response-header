@@ -17,7 +17,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "ephect-io/framework": "dev-develop"
+        "ephect-io/framework": "dev-remove_components",
+        "ephect-io/forms": "dev-develop"
     },
     "bin": [
         "bin/ephect-io_response-header_install.sh",
