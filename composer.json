@@ -1,0 +1,26 @@
+{
+    "name": "ephect-io/response-header",
+    "type": "library",
+    "homepage": "https://example.com",
+    "license": "GPL-3.0+",
+    "version": "0.7.2",
+    "autoload": {
+        "psr-4": {
+            "Ephect\\ResponseHeader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ephect-io/framework": "dev-develop"
+    },
+    "bin": [
+        "bin/ephect-io_response-header_install.sh",
+        "bin/ephect-io_response-header_install.bat"
+    ]
+}
